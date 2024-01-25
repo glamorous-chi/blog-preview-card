@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap') */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --yellow:hsl(47, 88%, 63%);
+    --white:hsl(0, 0%, 100%);
+    --Grey:hsl(0, 0%, 50%);
+    --Black:hsl(0, 0%, 7%);
+    --paragraph:16px
+}
+
+body{
+    max-width: 1440px;
+    min-width: 375px;
+    font-family:"figtree" "sans-serif";
+    background-color: var(--yellow);
+}
+.main-div{
+    background-color: var(--white);
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    /* margin: auto; */
+    /* margin-top: 2rem; */
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TO put the div in the cenetr of the page */
+    height: 100vh;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+
+button{
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--yellow);
+
+}
+
+
